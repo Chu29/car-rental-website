@@ -135,3 +135,72 @@ button.btn-rental {
 .ad-2 img {
   margin: auto;
 }
+
+.order {
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pick-up,
+.drop-off {
+  background-color: #fff;
+  padding: 20px 60px;
+  border-radius: 10px;
+}
+
+.pick-up-content,
+.drop-off-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pick-up-title,
+.drop-off-title {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.pick-up-details,
+.drop-off-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.location,
+.calender,
+.clock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-right: 1px solid #c3d4e966;
+  padding-right: 20px;
+}
+
+.city,
+.date,
+.time {
+  display: flex;
+  gap: 18px;
+}
+
+.city p,
+.date p,
+.time p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: #90a3bf;
+}
+
+.switch {
+  background-color: #3563e9;
+  padding: 20px;
+  border-radius: 10px;
+}
