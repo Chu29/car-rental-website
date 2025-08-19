@@ -122,9 +122,9 @@ button.btn-rental {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: -2%;
   text-align: center;
   vertical-align: middle;
+  min-width: 120px;
 }
 
 .ad-2 button {
@@ -251,6 +251,8 @@ button.btn-rental {
 
 .popular-car {
   display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
   gap: 32px;
 }
 
