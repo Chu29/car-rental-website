@@ -221,6 +221,14 @@ button.btn-rental {
   padding: 20px;
 }
 
+.car-price span {
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #90a3bf;
+}
+
 .popular-title span:first-child {
   font-weight: 600;
   font-size: 16px;
@@ -308,12 +316,4 @@ button.btn-rental {
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
-}
-
-.car-price span {
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: #90a3bf;
 }
