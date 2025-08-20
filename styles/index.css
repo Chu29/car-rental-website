@@ -372,13 +372,18 @@ button.btn-rental {
   max-width: 300px;
 }
 
+.footer-links li a {
+  text-decoration: none;
+}
+
 .footer-logo p,
-.footer-links li {
+.footer-links li a {
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   color: #90a3bf;
 }
+
 
 .footer-links {
   display: flex;
