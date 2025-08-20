@@ -207,15 +207,20 @@ button.btn-rental {
 
 .car-catalog {
   padding: 20px 60px;
-}
-
-.popular-car-rent {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.popular-title {
+.popular-car-rent,
+.recommendation-car-rent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popular-title,
+.recommendation-title {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -229,7 +234,8 @@ button.btn-rental {
   color: #90a3bf;
 }
 
-.popular-title span:first-child {
+.popular-title span:first-child,
+.recommendation-title span:first-child {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
@@ -249,7 +255,8 @@ button.btn-rental {
   color: #3563e9;
 }
 
-.popular-car {
+.popular-car,
+.recommendation-car {
   display: flex;
   overflow-x: scroll;
   justify-content: space-between;
