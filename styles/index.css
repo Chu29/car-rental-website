@@ -326,3 +326,17 @@ button.btn-rental {
   letter-spacing: 0%;
   vertical-align: middle;
 }
+
+.show-more {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.show-more span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  vertical-align: middle;
+  color: #90a3bf;
+}
