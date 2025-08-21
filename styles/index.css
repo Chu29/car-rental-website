@@ -558,4 +558,41 @@ button:hover {
     height: auto;
     display: block;
   }
+
+  .footer {
+    padding: 60px 20px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .footer-links {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-links .link-box:nth-child(1) {
+    margin-bottom: 30px;
+  }
+
+  .link-box {
+    min-width: 142px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+  }
+  
+  span {
+    order: 2;
+  }
+  
+  .terms {
+    justify-content: space-between;
+  }
 }
