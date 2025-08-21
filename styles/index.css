@@ -423,3 +423,50 @@ button:hover {
   display: flex;
   gap: 80px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-bar-top {
+    display: none;
+  }
+
+  .for-mobile {
+    display: contents;
+  }
+  
+  .logo-search-mobile {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logo-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search-mobile > img {
+    padding: 20px;
+    border: 1px solid #c3d4e966;
+    border-radius: 10px;
+  }
+  
+  .search-mb {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* width: auto; */
+    border: 1px solid #c3d4e966;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+}
