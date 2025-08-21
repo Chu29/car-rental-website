@@ -504,7 +504,6 @@ button:hover {
   }
 
   .order-mobile {
-    display: contents;
     padding: 20px;
     display: flex;
     flex-direction: column;
