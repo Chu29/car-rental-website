@@ -432,7 +432,7 @@ button:hover {
   .for-mobile {
     display: contents;
   }
-  
+
   .logo-search-mobile {
     padding: 40px 20px;
     display: flex;
@@ -445,7 +445,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .search-mobile {
     display: flex;
     justify-content: space-between;
@@ -458,13 +458,12 @@ button:hover {
     border: 1px solid #c3d4e966;
     border-radius: 10px;
   }
-  
+
   .search-mb {
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 20px;
-    /* width: auto; */
     border: 1px solid #c3d4e966;
     border-radius: 10px;
     flex-grow: 1;
