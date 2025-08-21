@@ -17,6 +17,10 @@ input {
   outline: none;
 }
 
+.order-mobile {
+  display: none;
+}
+
 .for-mobile {
   display: none;
 }
@@ -28,6 +32,8 @@ input {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 
 .logo-search {
@@ -491,5 +497,31 @@ button:hover {
 
   .ad-title p {
     font-size: 12px;
+  }
+
+  .order {
+    display: none;
+  }
+
+  .order-mobile {
+    display: contents;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pick-up,
+  .drop-off {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .location,
+  .calender,
+  .clock {
+    padding-right: 0;
   }
 }
