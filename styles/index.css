@@ -17,6 +17,10 @@ input {
   outline: none;
 }
 
+.for-mobile {
+  display: none;
+}
+
 .nav-bar-top {
   padding: 40px 60px;
   display: flex;
@@ -131,6 +135,10 @@ button.btn-rental {
 
 .ad-2 button {
   background-color: #54a6ff;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .ad-1 img,
