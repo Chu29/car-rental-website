@@ -574,12 +574,12 @@ button:hover {
     justify-content: space-between;
   }
 
-  .footer-links .link-box:nth-child(1) {
-    margin-bottom: 30px;
-  }
-
   .link-box {
     min-width: 142px;
+  }
+
+  .footer-links .link-box:nth-child(1) {
+    margin-bottom: 30px;
   }
 
   .footer-bottom {
@@ -587,11 +587,11 @@ button:hover {
     gap: 20px;
     font-size: 12px;
   }
-  
+
   span {
     order: 2;
   }
-  
+
   .terms {
     justify-content: space-between;
   }
