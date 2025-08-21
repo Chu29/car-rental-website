@@ -366,6 +366,7 @@ button:hover {
 .show-more {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
@@ -522,5 +523,39 @@ button:hover {
   .calender,
   .clock {
     padding-right: 0;
+  }
+
+  .car-catalog {
+    padding: 20px;
+  }
+
+  .recommendation-car {
+    flex-direction: column;
+  }
+
+  .recommendation-car .catalog-1 > img {
+    width: 100%;
+    padding: 0 140px 20px 0;
+  }
+  
+  .catalog-1 {
+    position: relative;
+  }
+
+  .recommendation-car-rent > .recommendation-car > .catalog-1 > .catalog-details .car-specifications {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    width: 74px;
+    height: 74px;
+  }
+
+  .recommendation-car-rent > .recommendation-car > .catalog-1 > .catalog-details .car-specifications img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
