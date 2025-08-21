@@ -79,6 +79,7 @@ input {
   flex-direction: column;
   background-color: #54a6ff;
   padding: 24px;
+  min-width: 327px;
   width: 640px;
   border-radius: 10px;
 }
@@ -144,6 +145,9 @@ button:hover {
 .ad-1 img,
 .ad-2 img {
   margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .order {
@@ -467,5 +471,25 @@ button:hover {
     border: 1px solid #c3d4e966;
     border-radius: 10px;
     flex-grow: 1;
+  }
+
+  .ads {
+    padding: 20px;
+  }
+
+  .ads .ad-2 {
+    display: none;
+  }
+
+  .ad-1 {
+    display: flex;
+  }
+
+  .ad-title h2 {
+    font-size: 16px;
+  }
+
+  .ad-title p {
+    font-size: 12px;
   }
 }
